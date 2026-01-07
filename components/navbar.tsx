@@ -58,13 +58,6 @@ export default function Navbar() {
               Showcase
             </Link>
             <Link
-              href="/create"
-              onClick={() => setIsOpen(false)}
-              className="block text-foreground/80 hover:text-foreground transition-colors"
-            >
-              Create
-            </Link>
-            <Link
               href="/gallery"
               onClick={() => setIsOpen(false)}
               className="block text-foreground/80 hover:text-foreground transition-colors"
