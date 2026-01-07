@@ -78,9 +78,6 @@ export default function Navbar() {
             >
               About
             </Link>
-            <Link href="/create" onClick={() => setIsOpen(false)}>
-              <Button className="w-full">Start Dreaming</Button>
-            </Link>
           </div>
         )}
       </div>
